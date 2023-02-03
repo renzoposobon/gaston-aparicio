@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import WhatsappModal from './componentes/WhatsappModal';
 import Contacto from './componentes/Contacto';
 import Footer from './componentes/Footer';
 import Inicio from './componentes/Inicio';
@@ -17,6 +18,7 @@ function App() {
         <Route path="/proyectos" element={<Proyectos />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
+      <WhatsappModal />
       <Footer />
     </BrowserRouter>
   );

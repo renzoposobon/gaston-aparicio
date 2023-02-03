@@ -9,7 +9,7 @@ const Inicio = () => {
   return (
     <div>
       <main className='mainInicio'>
-        <img src={require("../recursos/DSC00434.png")} alt="foto-gaston" className='imagenInicio' />
+        <img src={require("../recursos/foto-index-min-removebg-preview2.png")} alt="foto-gaston" className='imagenInicio' />
         <article className='cuerpoTextoInicio'>
           <p style={tituloUno}>¡Hola!</p>
           <p className="tituloInicio">Soy Gastón Aparicio</p>

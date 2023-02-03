@@ -167,7 +167,7 @@ export default function NavBar() {
         </Dialog>
       </Transition.Root>
 
-      <header className="relative bg-orange-400 h-auto">
+      <header className="relative bg-orange-400 h-auto background">
 
         <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="">
