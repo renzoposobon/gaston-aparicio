@@ -9,11 +9,12 @@ const Inicio = () => {
   return (
     <div>
       <main className='mainInicio'>
-        <img src={require("../recursos/foto-index-min-removebg-preview2.png")} alt="foto-gaston" className='imagenInicio' />
+        <img src={require("../recursos/foto-sin-fondo-con-alta-calidad-recortada.png")} alt="foto-gaston" className='imagenInicio' />
+        {/* <img src={require("../recursos/DSC00434.png")} alt="foto-gaston" className='imagenInicio' /> */}
         <article className='cuerpoTextoInicio'>
           <p style={tituloUno}>¡Hola!</p>
           <p className="tituloInicio">Soy Gastón Aparicio</p>
-          <p className='tituloAbajo'>Y quiero darte la bienvenida a mi sitio web</p>
+          <p className='tituloAbajo'>Quiero darte la bienvenida a mi sitio web <i className='icono-peronista'>✌</i></p>
         </article>
       </main>
     </div>
