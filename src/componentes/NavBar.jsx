@@ -125,7 +125,7 @@ export default function NavBar() {
 
               {/* Logo */}
               <div className="ml-4 flex lg:ml-0">
-                <Link to="/">
+                <Link to="/" className='logo'>
                   <img
                     className="h-12 w-8 logo"
                     src={require('../recursos/logo-pj.png')}

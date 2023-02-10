@@ -7,11 +7,13 @@ import Inicio from './componentes/Inicio';
 import NavBar from './componentes/NavBar';
 import Proyectos from './componentes/Proyectos';
 import SobreMi from './componentes/SobreMi';
+import IconoRedes from './componentes/IconoRedes';
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
+      {/* <IconoRedes /> */}
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/sobre-mi" element={<SobreMi />} />
