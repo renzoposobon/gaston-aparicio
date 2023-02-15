@@ -64,6 +64,10 @@
   }
 }
 
+.wave {
+  display: none;
+}
+
 .cuerpoTextoInicio {
   font-family: 'Lato', sans-serif;
   width: 55%;
@@ -498,12 +502,13 @@
   }
 
   .wave {
+    display: flex;
     width: 100%;
     height: auto;
     position: absolute;
     top: 60%;
     z-index: 1;
-    left: 0%
+    left: 0%;
   }
 
   .cuerpoTextoInicio div {
@@ -585,6 +590,15 @@
 }
 
 @media (max-width: 350px) {
+  .wave {
+    top: 65%;
+  }
+
+  .cuerpoTextoInicio div {
+    margin-top: -15%;
+    margin-bottom: 30px;
+  }
+
   .tituloUno {
     font-size: 26px;
     margin-top: 15px;
