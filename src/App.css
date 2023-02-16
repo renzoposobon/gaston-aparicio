@@ -456,7 +456,7 @@
 
 @media (max-width: 500px) {
   .logo {
-    width: 40px;
+    width: 35px;
     margin: 0;
     padding: 0;
     left: 43%;
@@ -504,9 +504,10 @@
   .wave {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 400px;
     position: absolute;
-    top: 60%;
+    /* top: 60%; */
+    bottom: 25%;
     z-index: 1;
     left: 0%;
   }
@@ -591,7 +592,8 @@
 
 @media (max-width: 350px) {
   .wave {
-    top: 65%;
+    /* top: 65%; */
+    bottom: 24%;
   }
 
   .cuerpoTextoInicio div {
