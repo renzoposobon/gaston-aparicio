@@ -568,6 +568,11 @@
 }
 
 @media (max-width: 400px) {
+  .wave {
+    /* top: 65%; */
+    bottom: 20%;
+  }
+
   .cuerpoTextoInicio {
     gap: 5px;
     padding: 0.5em 2em;
