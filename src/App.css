@@ -10,6 +10,13 @@
   padding: 0;
 }
 
+.proyectos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
 .background {
   font-family: 'Encode Sans', sans-serif;
   background-color: #ff4e00;
